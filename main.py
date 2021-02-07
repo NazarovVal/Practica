@@ -16,4 +16,5 @@ def vich(chis):
         if otv == chis:
             print(i)
             return i
+        //Комментарий для изменения
 print(prog(int(input())))
