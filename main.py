@@ -6,9 +6,7 @@ def vich(chis):
         des = 1
         good = []
         for j in range(1,5):
-            print(i)
-            strok.append(vrem % (10 * des) // des)
-            des *= 10
+            pass
         for j in range(3):
             pass
         if otv == chis:
