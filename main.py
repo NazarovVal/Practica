@@ -13,4 +13,5 @@ def prog(chis):
         otv = int(str(min(good))+str(max(good)))
         if otv == chis:
             return i
+        //Комментарий для изменения
 print(prog(int(input())))
