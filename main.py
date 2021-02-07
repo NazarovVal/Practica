@@ -5,6 +5,7 @@ def prog(chis):
         des = 1
         good = []
         for j in range(1,5):
+            print(i)
             strok.append(vrem % (10 * des) // des)
             des *= 10
         for j in range(3):
@@ -12,5 +13,6 @@ def prog(chis):
         good.pop(good.index(min(good)))
         otv = int(str(min(good))+str(max(good)))
         if otv == chis:
+            print(i)
             return i
 print(prog(int(input())))
