@@ -6,9 +6,9 @@ def vich(chis):
         des = 1
         good = []
         for j in range(1,5):
-            continue
+            pass
         for j in range(3):
-            continue
+            pass
         if otv == chis:
             print(i)
             return i
