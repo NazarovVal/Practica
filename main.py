@@ -10,9 +10,7 @@ def vich(chis):
             strok.append(vrem % (10 * des) // des)
             des *= 10
         for j in range(3):
-            good.append(int(strok[j]) + int(strok[j+1]))
-        good.pop(good.index(min(good)))
-        otv = int(str(min(good))+str(max(good)))
+            continue
         if otv == chis:
             print(i)
             return i
