@@ -1,4 +1,5 @@
-def prog(chis):
+//Назавём функцию подругому
+def vich(chis):
     for i  in range(1000,10000):
         vrem = i
         strok = []
